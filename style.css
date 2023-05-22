@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .todo-app h2 img {
@@ -46,7 +47,9 @@ input {
   border: none;
   outline: none;
   padding: 10px;
-  font-weight: 16px;
+  font-weight: 12px;
+  color:grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 button {
@@ -60,6 +63,7 @@ button {
   border-radius: 40px;
   width: 150px;
   height: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   
 }
 
@@ -72,6 +76,7 @@ ul li {
   position: relative;
   color:#350941;
   font-weight:bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 ul li::before {
@@ -94,6 +99,7 @@ ul li.checked {
 ul li.checked::before {
   background-image: url(img/checked.png);
   color:#511152;
+
 }
 ul li span {
   position: absolute;
@@ -101,7 +107,7 @@ ul li span {
   top: 5px;
   width: 40px;
   font-size: 22px;
-  color: #000b0f;
+  color: #152a31;
   line-height: 40px;
   text-align: center;
 }
@@ -118,7 +124,8 @@ ul li span:hover {
 }
 
 .t1{
-    color:#130118;
+    color:#464247;
    font-weight: bold;
-    
+   font-size: 16px;
+font-family: 'Courier New', Courier, monospace;    
 }
