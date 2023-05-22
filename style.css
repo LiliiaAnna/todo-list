@@ -46,7 +46,7 @@ input {
   border: none;
   outline: none;
   padding: 10px;
-  font-weight: 14px;
+  font-weight: 16px;
 }
 
 button {
@@ -65,11 +65,13 @@ button {
 
 ul li {
   list-style: none;
-  font-size: 17px;
+  font-size: 16px;
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
   position: relative;
+  color:#350941;
+  font-weight:bold;
 }
 
 ul li::before {
@@ -83,13 +85,15 @@ ul li::before {
   background-position: center;
   top: 12px;
   left: 8px;
+
 }
 ul li.checked {
-  color: #555;
+  color: #0e0101;
   text-decoration: line-through;
 }
 ul li.checked::before {
   background-image: url(img/checked.png);
+  color:#511152;
 }
 ul li span {
   position: absolute;
@@ -97,13 +101,13 @@ ul li span {
   top: 5px;
   width: 40px;
   font-size: 22px;
-  color: #a92525;
+  color: #000b0f;
   line-height: 40px;
   text-align: center;
 }
 
 ul li span:hover {
-  background: #174cb8;
+  background: #908594;
 }
 
 .removebtn{
@@ -111,4 +115,10 @@ ul li span:hover {
     height: 50px;
     font-size: 15px;
 
+}
+
+.t1{
+    color:#130118;
+   font-weight: bold;
+    
 }
