@@ -8,13 +8,13 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #153677, #4e085f);
+  background: linear-gradient(135deg, #01040a, #4e085f);
   padding: 10px;
 }
 .todo-app {
   width: 100%;
   max-width: 549px;
-  background: #fff;
+  background: #fbfbfb;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
 }
@@ -35,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #edeef0;
+  background: rgb(255, 255, 255);
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
@@ -53,11 +53,14 @@ button {
   border: none;
   outline: none;
   padding: 16px 50px;
-  background: #ff5945;
+  background: #511152;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
   border-radius: 40px;
+  width: 150px;
+  height: 50px;
+  
 }
 
 ul li {
@@ -94,11 +97,18 @@ ul li span {
   top: 5px;
   width: 40px;
   font-size: 22px;
-  color: #555;
+  color: #a92525;
   line-height: 40px;
   text-align: center;
 }
 
 ul li span:hover {
-  background: #edeef0;
+  background: #174cb8;
+}
+
+.removebtn{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+
 }
